@@ -369,7 +369,7 @@ if __name__ == "__main__":
             x_left = int(dict[screen_file]["box_x_left"])
             y_top = int(dict[screen_file]["box_y_top"])
             w = int(dict[screen_file]["box_width"])
-            h = int(dict[screen_file]["box_height"])
+            h = int(dict[screen_file]["box_height"])  
             
             top_left = (x_left, y_top)
             # Draw a rectangle around the matched area
